@@ -1,0 +1,18 @@
+sudo: false
+language: node_js
+node_js:
+  - 'node'
+  - '6'
+  - '5'
+  - '4'
+
+before_script:
+  - npm install -g @angular/cli
+script:
+  - npm run prod
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
