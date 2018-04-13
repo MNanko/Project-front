@@ -6,7 +6,6 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
-    "prod": "ng build -aot --prod --base-href /Project-front/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -24,7 +23,6 @@
     "@angular/router": "^5.2.0",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
-    "travis": "^0.1.1",
     "zone.js": "^0.8.19"
   },
   "devDependencies": {
