@@ -1,0 +1,9 @@
+{
+  "/towns": {
+    "target": "http://lpa2sgadot.herokuapp.com",
+    "secure": false,
+    "logLevel": "debug",
+    "changeOrigin": true
+  }
+}
+//     "target": "http://https://project-weather.herokuapp.com/towns",   
