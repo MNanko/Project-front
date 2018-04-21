@@ -22,8 +22,9 @@ export class MeteoComponent implements OnInit {
 
   ngOnInit() {
     
-//     this.townService.getTown(1).subscribe(town => {
-//       this.town=town;
-//     });
+     this.townService.getTown(1).subscribe(town => {
+      this.town=town;
+    });
+
   }
 }
